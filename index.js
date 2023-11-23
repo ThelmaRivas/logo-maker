@@ -64,3 +64,5 @@ async function generateLogo() {
     console.log(`Generated ${filePath}`);
 
 };
+
+generateLogo();
