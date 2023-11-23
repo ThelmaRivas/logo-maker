@@ -47,4 +47,11 @@ async function generateLogo() {
             throw new Error('Invalid shape');
     }
 
+    const svgContent = `
+    <svg xmlns="http://www.w3.org/2000/svg" height="200" width="300">
+      ${shapeObj.render()}
+      <text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${text}</text>
+    </svg>
+  `;
+  
 };
