@@ -53,5 +53,14 @@ async function generateLogo() {
       <text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${text}</text>
     </svg>
   `;
-  
+
+    const folderPath = './examples';
+    fs.mkdirSync(folderPath, { recursive: true });
+
+    const fileName = `logo_${Date.now()}.svg`;
+    const filePath = path.join(folderPath, fileName);
+
+    fs.writeFileSync(filePath, svgContent);
+    console.log(`Generated ${filePath}`);
+
 };
