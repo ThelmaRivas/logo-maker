@@ -21,7 +21,7 @@ To start the SVG Logo Maker, run the following command in the project's root dir
 Follow the prompts in the command line to select the color, shape, and text for your logo. The generated SVG file will be saved as logo.svg.
 
 Please refer to the following walkthrough video that demonstrates the functionality of the SVG Logo Maker:
-p Link to Walkthrough Video
+[Link to Walkthrough Video](https://drive.google.com/file/d/1fJsndz208SBr2XFqRqq2atdsuzPfOwRY/view)
 
 
 # License 
